@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "102422157780",
+    "firebase_url": "https://nowwhat-24e9d.firebaseio.com",
+    "project_id": "nowwhat-24e9d",
+    "storage_bucket": "nowwhat-24e9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102422157780:android:c3b111f2fe672074",
+        "android_client_info": {
+          "package_name": "com.zerostudios.nowwhat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102422157780-gu4c4o9ut9l7rr7o56ru2c9qvl6qlr9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zerostudios.nowwhat",
+            "certificate_hash": "d6d627e2d3a58ec97fd9c19a8e8bde957c653922"
+          }
+        },
+        {
+          "client_id": "102422157780-08ooobn917to57m5omjnopiqhr5pf70o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZgBg3B6UxCZUeLmb_14GLONa8iqxbGMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102422157780-08ooobn917to57m5omjnopiqhr5pf70o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

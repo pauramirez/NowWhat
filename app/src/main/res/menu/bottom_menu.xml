@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/restaurant"
+        android:enabled="true"
+        android:title="Restaurants"
+        android:icon="@drawable/cutlery"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/museums"
+        android:enabled="true"
+        android:title="Museums"
+        android:icon="@drawable/museum"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/parks"
+        android:enabled="true"
+        android:title="Parks"
+        android:icon="@drawable/bench"
+        app:showAsAction="ifRoom"
+    />
+</menu>

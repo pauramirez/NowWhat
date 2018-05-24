@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bg_anim"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:id="@+id/activity_login"
+    android:orientation="vertical"
+    tools:context="com.zerostudios.nowwhat.LoginActivity">
+
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/places"
+                    android:padding="16dp" />
+
+                <EditText
+                    android:id="@+id/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_person_white_24dp"
+                    android:background="@android:color/transparent"
+                    android:inputType="textEmailAddress"
+                    android:hint="Username"
+                    android:fontFamily="@font/lato"
+                    android:textColorHint="@android:color/white"
+                    android:drawablePadding="12dp"
+                    android:padding="8dp"
+                    android:ems="10"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:fontFamily="@font/lato"
+                android:textColorHint="#FFFFFF"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:ems="10"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Remember Me"
+                android:fontFamily="@font/lato"
+                android:textColor="#FFFFFF"
+                android:buttonTint="@android:color/white"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_login_button"
+                android:text="Log In"
+                android:fontFamily="@font/lato_bold"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:padding="16dp" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_stroke_login_button"
+                android:textAllCaps="false"
+                android:text="Sign Up"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/forget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Forgot Your Password?"
+                android:textColor="@android:color/white"
+                android:padding="16dp"
+                android:clickable="true"
+                android:onClick="toResetPassword"/>
+</LinearLayout>
